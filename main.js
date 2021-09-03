@@ -112,18 +112,18 @@ exercise2();
 
 // };
 
-// exercise3 = () => {
-// let string = "Hello there It is so nice to see you today. I just wanted to let you know you are GREAT!!";
-// let split = string.split(""); // split by character into sep arry
-// let count = split.reduce( // create a variable that reduces the split
-//     () => // two parameters total and index 
-//     {
-//         return split.length; 
-//     }
-// );
-// console.log(count);
-// };
-// exercise3();
+exercise3 = () => {
+let string = "Hello there It is so nice to see you today. I just wanted to let you know you are GREAT!!";
+let split = string.split(""); // split by character into sep arry
+let count = split.reduce( // create a variable that reduces the split
+    () => // two parameters total and index 
+    {
+        return split.length; 
+    }
+);
+console.log(count);
+};
+exercise3();
 
 //console.log(sentence("Hello there It is so nice to see you today. I would like to let you know you are so beautiful. have a nice day")); // debug.. it returns the string 
 
@@ -140,7 +140,7 @@ exercise2();
 
 
 exercise4 = () => {
-let string = "HEY PAL, LET'S JAVASCRIP TOGETHER SOMETIME!".toLowerCase(); // a certian string
+let string = "HEY PAL, LET'S JAVASCRIPT TOGETHER SOMETIME!".toLowerCase(); // a certian string
 let split = string.split(" "); // split the string by words 
 let capital = split.map( // set a varivale with the string.map()
     (element, index) => { // pass an index parameter to use 
